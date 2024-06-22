@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-image: url('creepye.gif');
+  }
+  .container {  display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 1px 1px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "blog bann1 bann1 . "
+      "merch bann2 bann2 wall"
+      "sound bann3 bann3 .";
+  transform: translate(0px, 100px);}
+  h1{font-family: 'FM Creep Mode';
+    text-shadow: 2px 2px 1px #b3b3b3, -2px -2px 1px #acaaaa;}
+  .titty{font-size:80px;
+        animation: rocky;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        animation-timing-function: steps(7, end);}
+  @keyframes rocky{
+    10%{transform: skew(2deg, 2deg);}
+    13%{transform: translate(-30px, -2px);}
+    17%{transform: rotate(-300deg);}
+    29%{transform: translate(50px, -7px);}
+    67%{transform: skew(-1deg, -1deg);}
+    77%{transform: translate(9px, -3px);}
+    79%{transform: translate(6px, -2px);}
+    89%{transform: rotate(-180deg);}}
+  .tit{transform: translate(0px, 250px);}
+  
+  .blog { grid-area: blog; 
+        border:5px ridge black;
+        background-image: url('gother.gif');
+        background-size: cover;
+        background-position: center;
+        transform: translate(0px, 110px);
+         color: white;
+        text-shadow: 1px 1px 1px black, -1px -1px 1px black;
+        font-size: 25px;}
+  .merch { grid-area: merch; 
+         border:5px ridge black;
+          background-image: url('gothy.gif');
+          background-size: 480px;
+          background-position: center;
+         transform: translate(0px, 130px);}
+  .sound { grid-area: sound; 
+         border:5px ridge black;
+         transform: translate(0px, 150px);
+         background-image: url('gothr.gif');
+         background-size: cover;
+         background-position: center;}
+  #blogo{transform: translate(0px, 100px);
+        color:black;
+        text-shadow: 1px 1px 1px white, -1px -1px 1px white;}
+  #mercho{transform: translate(0px, 100px);
+         color:#000000;
+         text-shadow: 1px 1px 1px white, -1px -1px 1px white;}
+  #soundo{transform: translate(0px, 100px);
+         color:black;
+         text-shadow: 1px 1px 1px white, -1px -1px 1px white;}
+  h2{font-family: 'Znort3000';
+    font-size: 38px;
+    text-shadow:1px 1px 1px black, -1px -1px 1px black;}
+  h2:hover{font-size: 47px;}
+  .wall{grid-area:wall;
+       transform: translate(-950px, -150px);
+       opacity: 0.9;}
+  #entryz{font-size:50px;}
+  .bann1{grid-area:bann1;
+        transform: translate(40px, 0px);}
+  #gtit{border:5px inset white;}
+  .bann2{grid-area:bann2;
+        transform: translate(40px, -100px);}
+  .bann3{grid-area:bann3;
+        transform: translate(40px, 300px);}
+  #bannr2{border:5px inset white;}
+  
+  
+  .item1{transform: translate(0px, 100px);
+        border:3px outset black;
+        font-size: 40px;}
+  

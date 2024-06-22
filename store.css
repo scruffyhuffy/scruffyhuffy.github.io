@@ -1,0 +1,9 @@
+html{width: 100%; height: 100%;
+    background-color: black;
+   overflow-x: hidden;}
+#container{
+         color:white;
+         font-weight: 900;
+transform: translate(0px, 0px);}
+#te3{border: 3px ridge #fcfcfc;}
+h1{color: white;}
