@@ -1,26 +1,63 @@
 html {
     height: 100%;
     width: 100%;
-    background-position: center;
+    background-position: top;
     background-image: url('creepye.gif');
+        overflow-x: hidden;
   }
-  .container {  display: grid;
+  body::-webkit-scrollbar {
+    width: 1em;
+  }
+  
+  body::-webkit-scrollbar-track {
+    box-shadow: ridge 0 0 6px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-image: url("creepye.gif");
+    background-size: 140px;
+    background-blend-mode: lighten;
+    background-position: center;
+    outline: 1px ridge #000000;
+  }
+  
+  .dig::-webkit-scrollbar {
+    width: 1em;
+  }
+  
+  .digy::-webkit-scrollbar-track {
+    box-shadow: ridge 0 0 6px;
+  }
+  
+  .dig::-webkit-scrollbar-thumb {
+    background-image: url("creepye.gif");
+    background-size: 140px;
+    background-blend-mode: lighten;
+    background-position: center;
+    outline: 1px ridge #000000;
+  }
+  
+  
+  .container {  
+    display: grid;
     grid-template-columns: 400px 400px 400px 400px;
     grid-template-rows: 300px 300px 300px;
     gap: 1px 1px;
     grid-auto-flow: column;
     grid-template-areas:
-      "blog bann1 bann1 . "
-      "merch bann2 bann2 wall"
+      "blog contained contained swordz"
+      "merch contained contained wall"
       "sound bann3 bann3 .";
-  transform: translate(0px, 100px);}
+  transform: translate(0px, 50px);}
   h1{font-family: 'FM Creep Mode';
-    text-shadow: 2px 2px 1px #b3b3b3, -2px -2px 1px #acaaaa;}
+    text-shadow: 1px 1px 1px #b3b3b3, -1px -1px 1px #acaaaa;}
   .titty{font-size:80px;
         animation: rocky;
+         color:white;
         animation-duration: 9s;
         animation-iteration-count: infinite;
         animation-timing-function: steps(7, end);}
+  .titi{transform: translate(0px, 0px);}
   @keyframes rocky{
     10%{transform: skew(2deg, 2deg);}
     13%{transform: translate(-30px, -2px);}
@@ -37,50 +74,173 @@ html {
         background-image: url('gother.gif');
         background-size: cover;
         background-position: center;
-        transform: translate(0px, 110px);
+        transform: translate(0px, 200px);
          color: white;
         text-shadow: 1px 1px 1px black, -1px -1px 1px black;
         font-size: 25px;}
+  .blog:hover{background-size: 200px;}
   .merch { grid-area: merch; 
          border:5px ridge black;
           background-image: url('gothy.gif');
           background-size: 480px;
           background-position: center;
-         transform: translate(0px, 130px);}
+         transform: translate(0px, 210px);}
+  .merch:hover{background-size: 100px;}
   .sound { grid-area: sound; 
          border:5px ridge black;
-         transform: translate(0px, 150px);
+         transform: translate(0px, 220px);
          background-image: url('gothr.gif');
          background-size: cover;
          background-position: center;}
+  .sound:hover{background-size: 150px;}
   #blogo{transform: translate(0px, 100px);
         color:black;
         text-shadow: 1px 1px 1px white, -1px -1px 1px white;}
+  #blogo:hover{filter: invert(100%);}
   #mercho{transform: translate(0px, 100px);
          color:#000000;
          text-shadow: 1px 1px 1px white, -1px -1px 1px white;}
+  #mercho:hover{filter:invert(100%);}
   #soundo{transform: translate(0px, 100px);
          color:black;
          text-shadow: 1px 1px 1px white, -1px -1px 1px white;}
+  #soundo:hover{filter: invert(100%);}
   h2{font-family: 'Znort3000';
     font-size: 38px;
     text-shadow:1px 1px 1px black, -1px -1px 1px black;}
   h2:hover{font-size: 47px;}
   .wall{grid-area:wall;
-       transform: translate(-950px, -150px);
+       transform: translate(-975px, -120px);
        opacity: 0.9;}
   #entryz{font-size:50px;}
   .bann1{grid-area:bann1;
-        transform: translate(40px, 0px);}
-  #gtit{border:5px inset white;}
-  .bann2{grid-area:bann2;
-        transform: translate(40px, -100px);}
+        transform: translate(40px, -50px);}
+  #gtit{border:5px inset white;
+       border-radius: 50px;}
+  .bann2{display: grid;
+        width:425px;
+    grid-template-columns: 425px;
+    grid-template-rows: 300px 60px;
+    gap: 1px 1px;
+    grid-auto-flow: column;
+    grid-template-areas:
+         "dig"
+          "head";
+        transform: translate(70px, 150px);}
+  .head{grid-area:head;
+        width:450px;
+        transform: translate(0px, 310px);
+        background-color: black;
+        background-image: url('creepye.gif');
+        background-position-x: right 40px;
+        background-position-y: 160px;
+       border:5px inset #cfcece;
+       border-bottom-left-radius: 50px;}
+  .dig{grid-area:dig;
+      border:5px inset #e0e0e0;
+       background-color: black;
+       width:450px;
+       height:600px;
+       overflow-x: hidden;
+      overflow-y:scroll;
+      border-top-left-radius:50px;}
+  #thx{transform: translate(0px, 15px);}
+  #wellc{transform: translate(0px, 40px);}
+  #gmatch{transform: translate(0px, 50px);}
   .bann3{grid-area:bann3;
-        transform: translate(40px, 300px);}
+         background-position-y:220px;
+         background-size:650px;
+         background-image: url('olgur.png');
+         border: 2px ridge black;
+         width:650px;
+        transform: translate(70px, 500px);
+        height:100px;}
   #bannr2{border:5px inset white;}
-  
-  
-  .item1{transform: translate(0px, 100px);
-        border:3px outset black;
-        font-size: 40px;}
-  
+  #ti{transform: translate(-1250px, -70px);}
+  .swordz{grid-area: swordz;}
+  #tuw{transform: translate(-210px, 100px);}
+  #mid{transform: translate(0px, 45px);
+      }
+  #ght{
+      transform: translate(0px, 60px);}
+  #tli{
+      transform: translate(0px, 30px);}
+  h5{font-weight: 900;}
+  #navig{transform: translate(-1200px, -400px);
+        font-size: 80px;
+         color:black;
+        text-shadow: 5px 5px 1px #000000, -4px -4px 1px #000000;
+         animation: niav;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        animation-timing-function: steps(7, end);}
+  @keyframes niav{
+    10%{text-shadow: 4px 5px 1px #ffffff, -2px -4px 1px #ffffff;}
+    13%{text-shadow: 5px 6px 1px white, -3px -5px 1px white;}
+    17%{text-shadow: 6px 7px 1px white, -4px -6px 1px white;}
+    29%{text-shadow: 7px 6px 1px white, -5px -5px 1px white;}
+    67%{text-shadow: 6px 5px 1px white, -4px -4px 1px white;}
+    77%{text-shadow: 5px 4px 1px white, -3px -3px 1px white;}
+    79%{text-shadow: 4px 3px 1px white, -2px -2px 1px white;}
+    89%{text-shadow: 3px 2px 1px white, -1px -1px 1px white;}}
+  #flamer{transform: translate(-230px, -32px);}
+  .contained { grid-area: contained;
+        display: grid;
+              transform: translate(0px, -50px);
+              grid-template-columns: 300px 300px;
+              grid-template-rows: 300px 300px;
+              grid-auto-rows: 1fr;
+              gap: 1px 1px;
+              grid-auto-flow: column;
+              grid-template-areas:
+                "bann2 bang"
+                "bann2 bang2"
+              ". .";
+            }
+  .bang{grid-area: bang;
+       background-color: white;
+       width:300px;
+       transform: translate(240px, -25px);
+       border: 5px ridge black;}
+  .bang2{grid-area: bang2;
+       background-color: black;
+       width:300px;
+       transform: translate(240px, 20px);
+       border: 5px ridge white;
+        height:400px;
+        padding: 5px;}
+  .bang3{grid-area: bang3;
+       background-color: black;
+       width:400px;
+       transform: translate(440px, 200px);
+       border: 5px ridge white;
+        height:400px;
+        padding: 5px;}
+  .bang4{grid-area: bang4;
+         position: sticky;
+         bottom:150px;
+         border-radius: 20px;
+         background-size: 200px;
+         background-image: url('');
+         background-position: bottom;
+       width:250px;
+       transform: translate(-700px, 00px);
+        height:150px;
+        padding: 5px;}
+  #kill{font-size: 80px;
+       color:black;
+       font-family: 'courier new';
+       text-shadow: 1px 1px 1px #252627, -1px -1px 1px #242529;}
+  #goth{color:black;}
+  #gith{transform: rotate(180deg);}
+  #onear{color:white;
+        transform: translate(0px, 0px);
+         font-size:13px;}
+  #chatter{transform: translate(0px, 25px);
+          border:10px ridge white;
+          border-radius: 20px;}
+  #emel{background-color: white;
+       color:black;
+        border:2px outset black;
+       width:fit-content;}
+  #te3e{transform: translate(0px, -350px);}

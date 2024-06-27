@@ -1,9 +1,59 @@
-html{width: 100%; height: 100%;
+html{width: 100%; 
+    height: 100%;
     background-color: black;
-   overflow-x: hidden;}
-#container{
-         color:white;
-         font-weight: 900;
-transform: translate(0px, 0px);}
-#te3{border: 3px ridge #fcfcfc;}
-h1{color: white;}
+    overflow-x: hidden;}
+    
+    body::-webkit-scrollbar {
+      width: 1em;
+    }
+    
+    body::-webkit-scrollbar-track {
+      box-shadow: ridge 0 0 6px;
+    }
+    
+    body::-webkit-scrollbar-thumb {
+      background-image: url("gtitbanner.gif");
+      background-size: 440px;
+      background-blend-mode: lighten;
+      background-position: center;
+      outline: 1px ridge #000000;
+    }
+    
+    #container{color:white;
+              font-weight: 900;
+    transform: translate(0px, 0px);}
+    h1{color: white;
+       font-family: 'fm creep mode';}
+    
+    .item1{transform: translate(0px, 100px);
+          border:1px outset #0011ff;
+          font-size: 40px;}
+    .item1:hover{border:1px dashed #0011ff;
+                border-top-left-radius: 150px;
+                border-bottom-right-radius: 150px;}
+    
+    .item{transform: translate(0px, 100px);
+          font-family: '‘DragonForcE’';
+          color:black;
+          text-shadow: 1px 1px 1px #0011ff, -1px -1px 1px #0011ff;
+          font-size: 65px;}
+    #hom{transform: translate(0px, 0px);
+        font-size:25px;}
+    #hom:hover{font-size:33px;
+               text-shadow: 1px 1px 1px #0040ff, -1px -1px 1px #1e00ff;}
+    .footz{color:black;
+          text-shadow: 1px 1px 1px white, -1px -1px 1px white;
+          font-family: '‘DragonForcE’';
+          font-size:40px;}
+    .buyme{border:3px outset blue;
+          border-radius: 10px;
+          width:fit-content;
+          padding:7px;
+          background-image: url('gtitbanner.gif');}
+    .buyme:hover{border:5px inset blue;
+                transform: scale(1.3);}
+    .itle{font-family:'Black Empire';
+         font-size: 90px;
+         text-shadow: 1px 3px 1px blue, -3px -1px 1px blue;}
+    a:visited{color:white;}
+    a{text-decoration: none;}
