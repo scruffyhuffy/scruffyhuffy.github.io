@@ -175,18 +175,18 @@ h5{font-weight: 900;}
       font-size: 80px;
        color:black;
       text-shadow: 5px 5px 1px #000000, -4px -4px 1px #000000;
-       animation: niav;
-      animation-duration: 9s;
+      animation: niav;
+      animation-duration: 25s;
       animation-iteration-count: infinite;
       animation-timing-function: steps(7, end);}
 @keyframes niav{
   10%{text-shadow: 4px 5px 1px #ffffff, -2px -4px 1px #ffffff;}
-  13%{text-shadow: 5px 6px 1px white, -3px -5px 1px white;}
-  17%{text-shadow: 6px 7px 1px white, -4px -6px 1px white;}
-  29%{text-shadow: 7px 6px 1px white, -5px -5px 1px white;}
+  13%{text-shadow: 4px 6px 1px black, -3px -2px 1px white;}
+  17%{text-shadow: 4px 7px 1px white, -4px -2px 1px black;}
+  29%{text-shadow: 7px 6px 1px #112c46, -5px -5px 1px white;}
   67%{text-shadow: 6px 5px 1px white, -4px -4px 1px white;}
-  77%{text-shadow: 5px 4px 1px white, -3px -3px 1px white;}
-  79%{text-shadow: 4px 3px 1px white, -2px -2px 1px white;}
+  77%{text-shadow: 2px 4px 1px white, -3px -2px 1px #060841;}
+  79%{text-shadow: 1px 3px 1px #080a3f, -2px -2px 1px white;}
   89%{text-shadow: 3px 2px 1px white, -1px -1px 1px white;}}
 #flamer{transform: translate(-230px, -32px);}
 
