@@ -3,6 +3,7 @@ html {
   width: 100%;
   background-position: top;
   background-image: url('creepye.gif');
+  background-size:600px;
       overflow-x:hidden;
 }
 body::-webkit-scrollbar {
