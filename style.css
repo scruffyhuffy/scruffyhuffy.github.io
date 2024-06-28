@@ -157,7 +157,7 @@ h2:hover{font-size: 47px;}
       transform: translate(70px, 520px);
       height:100px;}
 #bannr2{border:5px inset white;}
-#ti{transform: translate(-500px, -100px);}
+#ti{transform: translate(-550px, -30px);}
 .swordz{grid-area: swordz;
         height:300px;
         width:300px;
@@ -171,7 +171,7 @@ h2:hover{font-size: 47px;}
 #tli{
     transform: translate(0px, 30px);}
 h5{font-weight: 900;}
-#navig{transform: translate(-450px, -380px);
+#navig{transform: translate(-450px, -310px);
       font-size: 80px;
        color:black;
       text-shadow: 5px 5px 1px #000000, -4px -4px 1px #000000;
