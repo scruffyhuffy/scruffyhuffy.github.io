@@ -3,8 +3,8 @@ html {
   width: 100%;
   background-position: top;
   background-image: url('creepye.gif');
-  background-size:600px;
       overflow-x:hidden;
+  background-size: 600px;
 }
 body::-webkit-scrollbar {
   width: 1em;
@@ -77,7 +77,7 @@ h1{font-family: 'FM Creep Mode';
       background-image: url('gother.gif');
       background-size: cover;
       background-position: center;
-      transform: translate(0px, 200px);
+      transform: translate(0px, 350px);
        color: white;
       text-shadow: 1px 1px 1px black, -1px -1px 1px black;
       font-size: 25px;}
@@ -88,12 +88,12 @@ h1{font-family: 'FM Creep Mode';
         background-image: url('gothy.gif');
         background-size: 480px;
         background-position: center;
-       transform: translate(0px, 210px);}
+       transform: translate(0px, 350px);}
 .merch:hover{background-size: 100px;}
 .sound { grid-area: sound; 
         height:150px;
        border:5px ridge black;
-       transform: translate(0px, 220px);
+       transform: translate(0px, 380px);
        background-image: url('gothr.gif');
        background-size: cover;
        background-position: center;}
@@ -131,10 +131,10 @@ h2:hover{font-size: 47px;}
   grid-template-areas:
        "dig"
         "head";
-      transform: translate(40px, 150px);}
+      transform: translate(40px, 200px);}
 .head{grid-area:head;
       width:450px;height: ;
-      transform: translate(0px, 310px);
+      transform: translate(0px, 410px);
       background-color: black;
       background-image: url('creepye.gif');
       background-position-x: right 40px;
@@ -145,7 +145,7 @@ h2:hover{font-size: 47px;}
     border:5px inset #e0e0e0;
      background-color: black;
      width:450px;
-     height:600px;
+     height:700px;
      overflow-x: hidden;
     overflow-y:scroll;
     border-top-left-radius:50px;}
@@ -157,7 +157,7 @@ h2:hover{font-size: 47px;}
       transform: translate(70px, 520px);
       height:100px;}
 #bannr2{border:5px inset white;}
-#ti{transform: translate(-500px, -130px);}
+#ti{transform: translate(-500px, -100px);}
 .swordz{grid-area: swordz;
         height:300px;
         width:300px;
@@ -171,7 +171,7 @@ h2:hover{font-size: 47px;}
 #tli{
     transform: translate(0px, 30px);}
 h5{font-weight: 900;}
-#navig{transform: translate(-450px, -450px);
+#navig{transform: translate(-450px, -420px);
       font-size: 80px;
        color:black;
       text-shadow: 5px 5px 1px #000000, -4px -4px 1px #000000;
