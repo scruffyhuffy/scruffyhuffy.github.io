@@ -130,7 +130,7 @@ h2:hover{font-size: 47px;}
   grid-template-areas:
        "dig"
         "head";
-      transform: translate(70px, 150px);}
+      transform: translate(40px, 150px);}
 .head{grid-area:head;
       width:450px;height: ;
       transform: translate(0px, 310px);
