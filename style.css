@@ -171,7 +171,7 @@ h2:hover{font-size: 47px;}
 #tli{
     transform: translate(0px, 30px);}
 h5{font-weight: 900;}
-#navig{transform: translate(-450px, -420px);
+#navig{transform: translate(-450px, -380px);
       font-size: 80px;
        color:black;
       text-shadow: 5px 5px 1px #000000, -4px -4px 1px #000000;
