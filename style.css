@@ -2,7 +2,7 @@ html {
   height: 100%;
   width: 100%;
   background-position: top;
-  background-image: url('creepye.gif');
+  background-color:black;
       overflow-x:hidden;
   background-size: 600px;
 }
@@ -124,6 +124,7 @@ h2:hover{font-size: 47px;}
      border-radius: 50px;}
 .bann2{display: grid;
       width:425px;
+      background-image: url('creepye.gif');
   grid-template-columns: 425px;
   grid-template-rows: 300px 60px;
   gap: 1px 1px;
@@ -149,9 +150,9 @@ h2:hover{font-size: 47px;}
      overflow-x: hidden;
     overflow-y:scroll;
     border-top-left-radius:50px;}
-#thx{transform: translate(0px, 15px);}
-#wellc{transform: translate(0px, 40px);}
-#gmatch{transform: translate(0px, 50px);}
+#thx{transform: translate(0px, 315px);}
+#wellc{transform: translate(0px, 340px);}
+#gmatch{transform: translate(0px, 350px);}
 .bann3{grid-area:bann3;
        width:650px;
       transform: translate(70px, 520px);
@@ -164,12 +165,12 @@ h2:hover{font-size: 47px;}
        transform: translate(-200px, -500px);
        }
 #tuw{transform: translate(400px, 00px);}
-#mid{transform: translate(0px, 45px);
+#mid{transform: translate(0px, 345px);
     }
 #ght{
-    transform: translate(0px, 60px);}
+    transform: translate(0px, 360px);}
 #tli{
-    transform: translate(0px, 30px);}
+    transform: translate(0px, 330px);}
 h5{font-weight: 900;}
 #navig{transform: translate(-450px, -310px);
       font-size: 80px;
