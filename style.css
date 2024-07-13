@@ -27,7 +27,7 @@ html {
        border: 3px outset black;
        background-image: url('darija.jpg');
         background-position: 50% 88%;
-       width:850px;
+       width:1150px;
        border-radius: 20px;
        transform: translate(150px, 0px);
         animation: animatedBackground 7s linear infinite alternate;}
