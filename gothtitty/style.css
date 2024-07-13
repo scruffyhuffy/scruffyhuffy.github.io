@@ -54,21 +54,20 @@ html {
   .yguy{grid-area: yguy;
        border-radius:20px;
        transform: translate(0px, 65px);}
-  .jhb{grid-area: jhb;
-      border:1px ridge white;
-      background-image: url('killhand.png');
-      background-size: 450px;
-       height:800px;
-       border-radius: 20px;
-      transform: translate(0px, 50px);}
-  .tv{grid-area: tv;
-     transform: translate(0px, 50px);}
-  #shop{
-     border:3px ridge black;}
-  #shop:hover{filter: hue-rotate(90deg) contrast(200%) invert(80%);}
-  
-  .os{grid-area: os;
-     transform:translate(0px, -10px);}
-  #fi:hover{filter: contrast(500%);}
-  #mu:hover{filter: contrast(500%);}
-  #loo:hover{filter: contrast(500%);}
+       .jhb{grid-area: jhb;
+        border:1px ridge white;
+        background-image: url('killhand.png');
+        background-size: 450px;
+         height:800px;
+         border-radius: 20px;
+        transform: translate(0px, 50px);}
+    .tv{grid-area: tv;
+       transform: translate(0px, 50px);}
+    #shop:hover{filter: hue-rotate(120deg) contrast(200%) invert(80%);
+               transform: scale(1.3);}
+    
+    .os{grid-area: os;
+       transform:translate(0px, -10px);}
+    #fi:hover{filter: contrast(500%);}
+    #mu:hover{filter: contrast(500%);}
+    #loo:hover{filter: contrast(500%);}
