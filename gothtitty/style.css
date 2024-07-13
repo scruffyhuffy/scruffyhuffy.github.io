@@ -1,0 +1,74 @@
+html {
+    height: 1100px;
+    width: 1200px;
+    background-color:black;
+    background-image: url('jan.webp');
+    background-size: 600px;
+    background-position: center;
+       background-attachment: fixed;
+  }
+  .container {  display: grid;
+              padding-left:20px;
+              width:1124px;
+    grid-template-columns: 250px 312px 312px 250px;
+    grid-template-rows: 130px 50px 400px 400px 40px;
+    grid-auto-rows: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "topo topo topo topo"
+      "os os os os"
+      "uygu yguy yguy jhb"
+      "uygu tv tv jhb"
+              ". . . .";
+  }
+  .topo{grid-area: topo;
+       border: 3px outset black;
+       background-image: url('darija.jpg');
+        background-position: 50% 88%;
+       width:850px;
+       border-radius: 20px;
+       transform: translate(150px, 0px);
+        animation: animatedBackground 7s linear infinite alternate;}
+  @keyframes animatedBackground {
+    10% {
+      background-position: -300% 100%;
+    }
+    50% {
+      background-position: 100% 75%;
+    }
+      60% {
+      background-position: 40% 55%;
+    }
+     100% {
+      background-position: -300% 0;
+    }
+  }
+  .uygu{grid-area: uygu;
+       border: 2px inset #000000;
+       border-radius: 20px;
+       background-image: url('killrcrf.jpg');
+        height:800px;
+       background-size: 470px;
+       transform: translate(0px, 50px);}
+  .yguy{grid-area: yguy;
+       border-radius:20px;
+       transform: translate(0px, 65px);}
+  .jhb{grid-area: jhb;
+      border:1px ridge white;
+      background-image: url('killhand.png');
+      background-size: 450px;
+       height:800px;
+       border-radius: 20px;
+      transform: translate(0px, 50px);}
+  .tv{grid-area: tv;
+     transform: translate(0px, 50px);}
+  #shop{
+     border:3px ridge black;}
+  #shop:hover{filter: hue-rotate(90deg) contrast(200%) invert(80%);}
+  
+  .os{grid-area: os;
+     transform:translate(0px, -10px);}
+  #fi:hover{filter: contrast(500%);}
+  #mu:hover{filter: contrast(500%);}
+  #loo:hover{filter: contrast(500%);}
